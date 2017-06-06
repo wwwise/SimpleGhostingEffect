@@ -1,0 +1,2 @@
+# SimpleGhostingEffect
+基于Unity3D的模型拖尾重影特效插件，重影效果为3D渲染，不依赖任何PostEffect等后处理着色器，简单易用
