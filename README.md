@@ -21,13 +21,13 @@
 
 ![Inspector](https://github.com/wwwise/SimpleGhostingEffect/blob/master/doc/img/inspector.jpg)
 
-* 参数说明
-    * Color Over Timeline 拖影的渐变颜色
-    * Life Time 每块拖影的消失时间 
-    * Max Ghosts Count 拖影的数量长度
-    * Color Over Timeline 拖影的渐变颜色
-    * Snap Distance 生成下一个拖影的长度间距
-    * Snap Interval 生成下一个拖影的时间间距
-    * Shader Name 可选自定义着色器
+* **参数说明**
+    * **Color Over Timeline** 拖影的渐变颜色
+    * **Life Time** 每块拖影的消失时间
+    * **Max Ghosts Count** 拖影的数量长度
+    * **Color Over Timeline** 拖影的渐变颜色
+    * **Snap Distance** 生成下一个拖影的长度间距
+    * **Snap Interval** 生成下一个拖影的时间间距
+    * **Shader Name** 可选自定义着色器
 
 4.使角色播放动画，运行时可通过脚本属性 **SimpleGhosting.snapping** = true或false开启或关闭拖影效果。
