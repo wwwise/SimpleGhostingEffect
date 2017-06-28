@@ -138,11 +138,11 @@ public class SimpleGhosting : MonoBehaviour
 
 
 
-        waist = animator.GetBoneTransform(HumanBodyBones.Hips);
-        leftHand = animator.GetBoneTransform(HumanBodyBones.LeftHand);
-        rightHand = animator.GetBoneTransform(HumanBodyBones.RightHand);
-        leftFoot = animator.GetBoneTransform(HumanBodyBones.LeftFoot);
-        rightFoot = animator.GetBoneTransform(HumanBodyBones.RightFoot);
+        waist = animator.GetBoneTransform(HumanBodyBones.Hips) ?? transform;
+        leftHand = animator.GetBoneTransform(HumanBodyBones.LeftHand) ?? transform;
+        rightHand = animator.GetBoneTransform(HumanBodyBones.RightHand) ?? transform;
+        leftFoot = animator.GetBoneTransform(HumanBodyBones.LeftFoot) ?? transform;
+        rightFoot = animator.GetBoneTransform(HumanBodyBones.RightFoot) ?? transform;
 
     }
     
