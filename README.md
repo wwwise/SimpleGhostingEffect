@@ -11,6 +11,8 @@
 
 ![Demo](https://github.com/wwwise/SimpleGhostingEffect/blob/master/doc/img/screenshot.jpg)
 
+![Demo](https://github.com/wwwise/SimpleGhostingEffect/blob/master/doc/img/screenshot2.jpg)
+
 ## Usage
 
 1.创建一个带 **Animator** 的角色对象
